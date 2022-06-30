@@ -1,0 +1,150 @@
+:host ::ng-deep {    
+
+    .table-header {
+        display: flex;
+    }
+
+    .p-datatable-responsive-demo .p-datatable-tbody > tr > td .p-column-title {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .p-d-flex {
+        display: flex!important;
+        padding: 0;
+        padding: 0.5rem 0.5rem;
+    }
+}
+
+@media screen and (max-width: 960px) {
+
+    .p-d-inline-block{
+        display: none;
+    }
+    .p-button-help{
+        display: none;
+    }
+
+    .p-mr-3  {
+        flex: 1 1 auto;
+        width: 150px;
+    }
+
+    :host ::ng-deep {
+
+        .p-datatable {
+            &.p-datatable-responsive-demo {
+                .p-datatable-thead > tr > th,
+                .p-datatable-tfoot > tr > td {
+                    display: none !important;
+                }
+
+                .p-datatable-tbody > tr > td {
+                    text-align: left;
+                    display: block;
+                    width: 100%;
+                    float: left;
+                    clear: left;
+                    border: 0 none;
+                    padding: 0.5rem 0.5rem;
+
+                    .boton{
+                        display: flex;
+                        justify-content: space-between;
+                    }
+
+                    .p-column-title {
+                        padding: .4rem;
+                        min-width: 30%;
+                        display: inline-block;
+                        margin: -.4em 1em -.4em -.4rem;
+                        font-weight: bold;
+                    }
+
+                    &:last-child {
+                        border-bottom: 3px solid var(--surface-d);
+                    }
+                }
+            }
+        }
+    }
+}
+
+.grid {
+    width: 99%;
+    margin: 0.5%;
+}
+
+.table{
+    width: 99%;
+    margin: 0.5%;
+    padding: 0.5%;
+}
+
+.p-field{
+    margin: 2%;
+}
+
+.toolbar{
+    width: 99%;
+    margin: 0.5%;
+    padding: 0.5%;
+}
+
+.p-field>label {
+    display: inline-block;
+    margin-bottom: .5rem;
+}
+
+.p-field.p-grid, .p-formgrid.p-grid {
+    margin-top: 0;
+}
+
+.p-grid {
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: -.5rem;
+    margin-left: -.5rem;
+    margin-top: -.5rem;
+}
+
+.p-field-checkbox>label, .p-field-radiobutton>label {
+    margin-left: .5rem;
+    line-height: 1;
+}
+
+.p-mb-3 {
+    margin-bottom: 1rem!important;
+}
+
+.p-field-checkbox, .p-field-radiobutton {
+    margin-bottom: 1rem;
+    display: flex;
+    align-items: center;
+}
+
+.p-col-6 {
+    width: 50%;
+}
+
+.p-col-1, .p-col-2, .p-col-3, .p-col-4, .p-col-5, .p-col-6, .p-col-7, .p-col-8, .p-col-9, .p-col-10, .p-col-11, .p-col-12, .p-col-fixed {
+    flex: 0 0 auto;
+    padding: .5rem;
+}
+
+.p-field.p-grid .p-col, .p-field.p-grid .p-col-1, .p-field.p-grid .p-col-2, .p-field.p-grid .p-col-3, .p-field.p-grid .p-col-4, .p-field.p-grid .p-col-5, .p-field.p-grid .p-col-6, .p-field.p-grid .p-col-7, .p-field.p-grid .p-col-8, .p-field.p-grid .p-col-9, .p-field.p-grid .p-col-10, .p-field.p-grid .p-col-11, .p-field.p-grid .p-col-12, .p-field.p-grid .p-col-fixed, .p-formgrid.p-grid .p-col, .p-formgrid.p-grid .p-col-1, .p-formgrid.p-grid .p-col-2, .p-formgrid.p-grid .p-col-3, .p-formgrid.p-grid .p-col-4, .p-formgrid.p-grid .p-col-5, .p-formgrid.p-grid .p-col-6, .p-formgrid.p-grid .p-col-7, .p-formgrid.p-grid .p-col-8, .p-formgrid.p-grid .p-col-9, .p-formgrid.p-grid .p-col-10, .p-formgrid.p-grid .p-col-11, .p-formgrid.p-grid .p-col-12, .p-formgrid.p-grid .p-col-fixed {
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
+.p-mr-2 {
+    margin-right: .5rem!important;
+}
+
+.p-mr-3 {
+    margin-right: .5rem!important;
+}
+
+.p-datatable-responsive-scroll>.p-datatable-wrapper {
+    overflow-x: auto;
+}
