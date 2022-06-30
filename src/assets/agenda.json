@@ -1,0 +1,28 @@
+{
+	"data": [
+		{
+			"id": "1000",
+			"nombres": "César Andres",
+			"apellidos": "Latorre Forero",
+			"cedula": "1013668147",
+			"genero": "M",
+			"edad": "31"
+		},
+		{
+			"id": "1001",
+			"nombres": "Camilo Eduardo",
+			"apellidos": "Gonzalez Parra",
+			"cedula": "1013668111",
+			"genero": "M",
+			"edad": "25"
+		},
+		{
+			"id": "1002",
+			"nombres": "Daniela",
+			"apellidos": "Miranda Restrepo",
+			"cedula": "39648311",
+			"genero": "F",
+			"edad": "45"
+		}
+	]
+}
